@@ -1,7 +1,20 @@
 id,username,name,is_admin,lecture_notification,lab_notification
-998047345,melki,Max,true,True,True
-407976503,hrabovskyy,Andriy,true,False,
-601834584,w4nt3dbamboni,N/A,true,,
-871135962,Vlad_Wind,N/A,false,,
-6348594575,None,N/A,false,,
-1098890843,senator_of_republic,N/A,false,,
+762850285,dontdodat,Іванка(куратор),true,False,
+998047345,melki_programist,Maxim Vasylets,true,True,True
+407976503,hrabovskyy,Andrii Hrabovskyi,true,True,True
+601834584,w4nt3dbamboni,Angelika Ponomarenko,true,False,
+871135962,Vlad_Wind,Vlad Kolchin,true,False,
+1098890843,senator_of_republic,Denys Sardakovsky,true,False,
+888141583,bekkirok,Rostanets Iryna,false,False,true
+378615805,Danilka337,Chupyak Daniil,false,true,true
+927188584,Nik,Kotlyarsky Nik,false,true,true
+880029970,demcheekk,Kapran Demian,false,true,true
+762850285,dontdodat,N/A,false,true,true
+637244833,fffexi,N/A,false,true,true
+1363583446,polopono,N/A,false,True,True
+549855650,SenjuWhite,N/A,false,true,true
+637244833,fffexi,N/A,false,true,true
+1363583446,polopono,N/A,false,true,true
+631936287,freshhik,N/A,false,False,True
+631936287,freshhik,N/A,false,true,true
+6348594575,None,N/A,false,True,True

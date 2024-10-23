@@ -15,7 +15,7 @@ def start_attendance_check(bot):
             for row in reader:
                 try:
                     keyboard = types.InlineKeyboardMarkup()
-                    to_attentedmenu_button = types.InlineKeyboardButton(text="Меню присутності", callback_data="attendance1")
+                    to_attentedmenu_button = types.InlineKeyboardButton(text="Позначити свою відвідуваність!", callback_data="attendance1")
                     keyboard.add(to_attentedmenu_button)
                     bot.send_message(row['id'], "Чи будете ви на парах?", reply_markup=keyboard)
                     attendance_data[row['id']] = {

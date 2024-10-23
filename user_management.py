@@ -1,6 +1,6 @@
 import csv
-from config import WHITE_LIST_FILE, WHITE_LIST_COLUMNS
-
+from config import WHITE_LIST_FILE, WHITE_LIST_COLUMNS, BLACKLIST_FILE
+import os
 def is_user_in_whitelist(user_id):
     try:
         with open(WHITE_LIST_FILE, newline='', encoding='utf-8') as file:
@@ -54,10 +54,12 @@ def approve_user(bot, call):
         "username": username,
         "name": "N/A",
         "is_admin": "false",
-        "notification": "true"
+        "lecture_notification": "true",
+        "lab_notification": "true"
     }
     add_user_to_whitelist(user_data)
-    bot.send_message(user_id, "Вам надано доступ до боту! Приємного користування!")
+    bot.send_message(user_id, "Вам надано доступ до боту! Приємного користування! ")
+    bot.send_message(user_id, "Для початку роботи введіть /start")
     bot.send_message(call.message.chat.id, f"Користувач {username} (ID: {user_id}) доданий в список.")
 
 
@@ -107,3 +109,43 @@ def get_user_notifications(user_id):
     except Exception as e:
         print(f'Error: {e}')
         return None, None
+#BLACKLIST
+if not os.path.exists(BLACKLIST_FILE):
+    with open(BLACKLIST_FILE, 'w') as f:
+        f.write("user_id,username\n")
+def add_to_blacklist(user_id, username):
+    with open(BLACKLIST_FILE, 'a', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow([user_id, username])
+def get_blacklist():
+    with open(BLACKLIST_FILE, 'r') as f:
+        reader = csv.reader(f)
+        next(reader)
+        return list(reader)
+def remove_from_blacklist(user_id):
+    rows = get_blacklist()
+    with open(BLACKLIST_FILE, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(["user_id", "username"])  # Перезаписуємо заголовок
+        for row in rows:
+            if row[0] != user_id:  # Пропускаємо користувача, якого треба видалити
+                writer.writerow(row)
+if not os.path.exists(BLACKLIST_FILE):
+    with open(BLACKLIST_FILE, 'w') as f:
+        f.write("user_id,username\n")
+
+
+def is_user_blacklisted(user_id):
+    try:
+        blacklist = get_blacklist()
+        user_id_str = str(user_id)
+
+        # Перевіряємо чи є user_id в першій колонці (індекс 0)
+        # row[0] - user_id, row[1] - username
+        for row in blacklist:
+            if row and row[0] == user_id_str:
+                return True
+        return False
+    except Exception as e:
+        print(f"Помилка при перевірці чорного списку: {e}")
+        return False

@@ -1,0 +1,28 @@
+day,time,subject,week,link,type
+Пн,10:25,Вища математика. Частина 1. Лінійна алгебра та аналітична геометрія. Диференціальне та інтегральне числення функцій однієї змінної,numerator, https://us02web.zoom.us/j/89824483314?pwd=1PtJ2MS2HxcEbcQi5ajbp4mnqodRGB.1,lecture
+Пн,12:20,Фізика. Частина 1,numerator,https://us04web.zoom.us/j/6492218171?pwd=YmR0L1lyWGNnU3BnQkl5cDlLZ2h4dz09,lecture
+Пн,14:15,Історія науки і техніки,numerator,https://meet.google.com/xiu-fjmd-cgy,lecture
+Вв,8:30,Програмування. Частина 1. Основи програмування,numerator,https://us02web.zoom.us/j/8309487995?pwd=K2hKLzkxUWhVL2w3Zng0eWdQSHh3UT09,lecture
+Вв,10:25,Спеціальні розділи математики. Частина 1. Дискретна математика,numerator,https://us02web.zoom.us/j/9348446833?pwd=OHh0VVk4OGhaQjRFdTZLRWlhRmFYZz09&omn=85742624364,lecture
+Вв,12:20,Операційні системи,numerator,https://us04web.zoom.us/j/71207097693?pwd=2UqJmantF8DW9AhkD5srV35ghtaAtQ.1,lecture
+Вв,14:15,Основи здорового способу життя,numerator,https://us02web.zoom.us/j/4387354937?pwd=R3R3NkpWU09GY3kvanZBeEcrQWZoUT09,lecture
+Ср,10:25,Спеціальні розділи математики. Частина 1. Дискретна математика,numerator,https://us02web.zoom.us/j/9348446833?pwd=OHh0VVk4OGhaQjRFdTZLRWlhRmFYZz09&omn=85742624364,lab
+Ср,12:20,Фізика. Частина 1,numerator,Лях: https://us04web.zoom.us/j/76362666471?pwd=bDVWbTRRdTIwT3h4RCszcEhOWDQ0QT09 Колган: https://us04web.zoom.us/j/2525321155?pwd=QkhRT0ZSRW1nQTlXMFdEdVhDOUhpdz09,lab
+Ср,14:15,Програмування. Частина 1. Основи програмування,numerator,https://us02web.zoom.us/j/8309487995?pwd=K2hKLzkxUWhVL2w3Zng0eWdQSHh3UT09,lab
+Чт,14:15,Операційні системи,numerator,https://us04web.zoom.us/j/71207097693?pwd=2UqJmantF8DW9AhkD5srV35ghtaAtQ.1,lab
+Пт,10:25,Вища математика. Частина 1. Лінійна алгебра та аналітична геометрія. Диференціальне та інтегральне числення функцій однієї змінної,numerator,https://us05web.zoom.us/j/87804517841?pwd=rINxQsEOJxhaqhMVv30MOR5bIWC6ba.1,lab
+Пт,12:20,Основи здорового способу життя,numerator,https://us05web.zoom.us/j/7875142930?pwd=N0NwbUNBOXVCZ1YybWtpOEMvampwQT09,lab
+Пт,8:30,Практичний курс іноземної мови. Частина 1,numerator,https://us05web.zoom.us/j/83221227122?pwd=20LRqDN2veRHAspY7MXaFPHBlVnrme.1,lab
+Пн,8:30,Вища математика. Частина 1. Лінійна алгебра та аналітична геометрія. Диференціальне та інтегральне числення функцій однієї змінної,denominator, https://us02web.zoom.us/j/89824483314?pwd=1PtJ2MS2HxcEbcQi5ajbp4mnqodRGB.1,lecture
+Пн,10:25,Вища математика. Частина 1. Лінійна алгебра та аналітична геометрія. Диференціальне та інтегральне числення функцій однієї змінної,denominator, https://us02web.zoom.us/j/89824483314?pwd=1PtJ2MS2HxcEbcQi5ajbp4mnqodRGB.1,lecture
+Пн,12:20,Фізика. Частина 1,denominator,https://us04web.zoom.us/j/6492218171?pwd=YmR0L1lyWGNnU3BnQkl5cDlLZ2h4dz09,lecture
+Вв,8:30,Програмування. Частина 1. Основи програмування,denominator,https://us02web.zoom.us/j/8309487995?pwd=K2hKLzkxUWhVL2w3Zng0eWdQSHh3UT09,lecture
+Вв,10:25,Спеціальні розділи математики. Частина 1. Дискретна математика,denominator,https://us02web.zoom.us/j/9348446833?pwd=OHh0VVk4OGhaQjRFdTZLRWlhRmFYZz09&omn=85742624364,lecture
+Вв,12:20,Операційні системи,denominator,https://us04web.zoom.us/j/71207097693?pwd=2UqJmantF8DW9AhkD5srV35ghtaAtQ.1,lecture
+Ср,10:25,Спеціальні розділи математики. Частина 1. Дискретна математика,denominator,https://us02web.zoom.us/j/9348446833?pwd=OHh0VVk4OGhaQjRFdTZLRWlhRmFYZz09&omn=85742624364,lab
+Ср,12:20,Фізика. Частина 1,denominator,Лях: https://us04web.zoom.us/j/76362666471?pwd=bDVWbTRRdTIwT3h4RCszcEhOWDQ0QT09 Колган: https://us04web.zoom.us/j/2525321155?pwd=QkhRT0ZSRW1nQTlXMFdEdVhDOUhpdz09,lab
+Ср,14:15,Програмування. Частина 1. Основи програмування,denominator,https://us02web.zoom.us/j/8309487995?pwd=K2hKLzkxUWhVL2w3Zng0eWdQSHh3UT09,lab
+Чт,12:20,Історія науки і техніки,denominator,https://meet.google.com/pmx-irkh-wpx,lab
+Чт,14:15,Фізика. Частина 1,denominator,Лях: https://us04web.zoom.us/j/76362666471?pwd=bDVWbTRRdTIwT3h4RCszcEhOWDQ0QT09 Колган: https://us04web.zoom.us/j/2525321155?pwd=QkhRT0ZSRW1nQTlXMFdEdVhDOUhpdz09,lab
+Пт,10:25,Вища математика. Частина 1. Лінійна алгебра та аналітична геометрія. Диференціальне та інтегральне числення функцій однієї змінної,denominator,https://us05web.zoom.us/j/87804517841?pwd=rINxQsEOJxhaqhMVv30MOR5bIWC6ba.1,lab
+Пт,8:30,Практичний курс іноземної мови. Частина 1,denominator,https://us05web.zoom.us/j/83221227122?pwd=20LRqDN2veRHAspY7MXaFPHBlVnrme.1,lab
